@@ -90,9 +90,9 @@
 // | c-z  | c-x  | c-c   | c-v   |       |   |    | LC(BSPC) | end  | pgdn | prev |   `    |
 //                       | trans | trans |   | trans |   FN   |
                         bindings = <
-        &kp TAB   &trans    &trans    &trans    &trans      &trans       &kp HOME &kp PG_UP &kp C_NEXT &kp BSPC
-        &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &none       &kp LEFT     &kp DOWN &kp UP    &kp RIGHT  &kp DEL
-        &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none       &kp LC(BSPC) &kp END  &kp PG_DN &kp C_PREV &kp GRAVE
+        &kp TAB   &trans    &trans    &trans    &trans      &trans       &kp HOME &kp PG_UP &kp C_AC_FORWARD &kp BSPC
+        &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &none       &kp LEFT     &kp DOWN &kp UP    &kp RIGHT        &kp DEL
+        &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none       &kp LC(BSPC) &kp END  &kp PG_DN &kp C_AC_BACK    &kp GRAVE
                                       &trans    &trans      &trans       &mo FUNCTIONS
                         >;
 
