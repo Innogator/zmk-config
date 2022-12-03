@@ -86,12 +86,12 @@
                 navetc_layer {
 // -------------------------------------------------------------------------
 // | tab  |      |       |       |       |   |    |          | home | pgup | next |  BSPC  |
-// | lctl | lalt | lsft  | lgui  |       |   |    |   left   | down |  up  | rght |  DEL   |
+// | lctl | lalt | lctrl | lsft  |       |   |    |   left   | down |  up  | rght |  DEL   |
 // | c-z  | c-x  | c-c   | c-v   |       |   |    | LC(BSPC) | end  | pgdn | prev |   `    |
 //                       | trans | trans |   | trans |   FN   |
                         bindings = <
         &kp TAB   &trans    &trans    &trans    &trans      &trans       &kp HOME &kp PG_UP &kp C_NEXT &kp BSPC
-        &kp LGUI  &kp LALT  &kp LCTRL &kp LSHFT &none       &kp LEFT     &kp DOWN &kp UP    &kp RIGHT  &kp DEL
+        &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &none       &kp LEFT     &kp DOWN &kp UP    &kp RIGHT  &kp DEL
         &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none       &kp LC(BSPC) &kp END  &kp PG_DN &kp C_PREV &kp GRAVE
                                       &trans    &trans      &trans       &mo FUNCTIONS
                         >;
@@ -101,7 +101,7 @@
                 number_layer {
 // ---------------------------------------------------------------------------
 // |   1  |   2  |   3   |   4   |   5   |   |  6  |  7  |  8  |  9  |   0   |
-// | lctl | lalt | lsft  | lgui  |       |   |  +  |  4  |  5  |  6  |   =   |
+// | lctl | lalt | lctrl | lsft  |       |   |  +  |  4  |  5  |  6  |   =   |
 // |      |      |       |       |       |   |  -  |  1  |  2  |  3  |   \   |
 //                       | trans | trans |   |  0  |  .  |
                         bindings = <
@@ -115,7 +115,7 @@
                 symbol_layer {
 // -------------------------------------------------------------------------
 // |   !  |   @  |   #   |   $   |   %   |   |  ^  |  &  |  *  |  (  |  )  |
-// | lctl | lalt | lsft  | lgui  |   |   |   |  -  |  =  |  {  |  }  |  '  |
+// | lctl | lalt | lctrl | lsft  |   |   |   |  -  |  =  |  {  |  }  |  '  |
 // |      |      |       |       |       |   |  _  |  +  |  [  |  ]  |  \  |
 //                       | trans | trans |   |  trans  |  ~ |
 
