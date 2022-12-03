@@ -91,7 +91,7 @@
 //                       | trans | trans |   | trans |   FN   |
                         bindings = <
         &kp TAB   &trans    &trans    &trans    &trans      &trans       &kp HOME &kp PG_UP &kp C_NEXT &kp BSPC
-        &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &none       &kp LEFT     &kp DOWN &kp UP    &kp RIGHT  &kp DEL
+        &kp LGUI  &kp LALT  &kp LCTRL &kp LSHFT &none       &kp LEFT     &kp DOWN &kp UP    &kp RIGHT  &kp DEL
         &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none       &kp LC(BSPC) &kp END  &kp PG_DN &kp C_PREV &kp GRAVE
                                       &trans    &trans      &trans       &mo FUNCTIONS
                         >;
