@@ -96,7 +96,7 @@
                 navetc_layer {
 // -------------------------------------------------------------------------
 // | tab  |      |       |       |       |   |    |          | home | pgup | end  |  BSPC  |
-// | lctl | lalt | lctrl | lsft  |       |   |    |   left   | down |  up  | rght |  DEL   |
+// | lgui | lalt | lctrl | lsft  |       |   |    |   left   | down |  up  | rght |  DEL   |
 // | c-z  | c-x  | c-c   | c-v   |       |   |    | LC(BSPC) | prev | pgdn | next |   `    |
 //                       | trans | trans |   | trans |   FN   |
                         bindings = <
