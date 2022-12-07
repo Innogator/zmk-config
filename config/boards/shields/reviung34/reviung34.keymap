@@ -103,7 +103,7 @@
         &kp TAB   &trans    &trans    &trans    &trans      &trans       &kp HOME      &kp PG_UP &kp END          &kp BSPC
         &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &none       &kp LEFT     &kp DOWN      &kp UP    &kp RIGHT        &kp DEL
         &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none       &kp LC(BSPC) &kp C_AC_BACK &kp PG_DN &kp C_AC_FORWARD &kp GRAVE
-                                      &trans    &trans      &trans       &mo FUNCTIONS
+                                      &trans    &trans      &trans       &lt FUNCTIONS TILDE
                         >;
 
                 };
@@ -133,7 +133,7 @@
         &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR
         &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &kp PIPE   &kp MINUS  &kp EQUAL &kp LBRC   &kp RBRC  &kp SQT
         &none     &none     &none     &none     &none      &kp UNDER  &kp PLUS  &kp LBKT   &kp RBKT  &kp BSLH
-                                    &trans   &trans           &trans  &kp TILDE
+                                    &trans   &trans           &trans  &trans
 
                         >;
                 };
