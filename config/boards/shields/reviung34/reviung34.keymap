@@ -59,18 +59,18 @@
                };
                combo_bksp {
                         timeout-ms = <50>;
-                        key-positions = <28 29>;
-                        bindings = <&kp BSPC>;
-               };
-               combo_single_quote {
-                        timeout-ms = <50>;
                         key-positions = <17 18>;
-                        bindings = <&kp SQT>;
+                        bindings = <&kp BSPC>;
                };
                combo_double_quote {
                        timeout-ms = <50>;
                        key-positions = <18 19>;
                        bindings = <&kp DQT>;
+               };
+               combo_single_quote {
+                        timeout-ms = <50>;
+                        key-positions = <28 29>;
+                        bindings = <&kp SQT>;
                };
         };
 };
@@ -95,12 +95,12 @@
 
                 navetc_layer {
 // -------------------------------------------------------------------------
-// | tab  |      |  del  |       |       |   |    |          | home | pgup | end  |  BSPC  |
+// | tab  |      |  del  | c-r   | c-y   |   |    |          | home | pgup | end  |  BSPC  |
 // | lgui | lalt | lctrl | lsft  |       |   |    |   left   | down |  up  | rght |  DEL   |
 // | c-z  | c-x  | c-c   | c-v   |       |   |    | LC(BSPC) | prev | pgdn | next |   `    |
 //                       | trans | trans |   | trans |   FN   |
                         bindings = <
-        &kp TAB   &trans    &kp DEL   &trans    &trans      &trans       &kp HOME      &kp PG_UP &kp END          &kp BSPC
+        &kp TAB   &trans    &kp DEL   &kp LC(R) &kp LC(Y)   &kp LC(Y)    &trans       &kp HOME      &kp PG_UP &kp END          &kp BSPC
         &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &none       &kp LEFT     &kp DOWN      &kp UP    &kp RIGHT        &kp DEL
         &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none       &kp LC(BSPC) &kp C_AC_BACK &kp PG_DN &kp C_AC_FORWARD &kp GRAVE
                                       &trans    &trans      &trans       &lt FUNCTIONS TILDE
@@ -133,7 +133,7 @@
         &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR
         &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &kp PIPE   &kp MINUS  &kp EQUAL &kp LBRC   &kp RBRC  &kp SQT
         &none     &none     &none     &none     &none      &kp UNDER  &kp PLUS  &kp LBKT   &kp RBKT  &kp BSLH
-                                    &trans   &trans           &trans  &trans
+                           &lt FUNCTIONS DEL   &trans           &trans  &trans
 
                         >;
                 };
